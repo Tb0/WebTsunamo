@@ -51,6 +51,10 @@ a:focus {
   outline: none;
 }
 
+header {
+  height: 200px;
+}
+
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
@@ -156,6 +160,18 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+.logo {
+  background: url(../images/200x200.png) no-repeat 1px;
+  width:200px;
+  height:200px;
+  margin:0px;
+  border-bottom: none;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 pre, code {
@@ -319,13 +335,15 @@ Full-Width Styles
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+  margin-left: 35px;
+  margin-top: 180px;
 }
 
 #downloads {
   position: absolute;
   width: 210px;
   z-index: 10;
-  bottom: -40px;
+  bottom: 20px;
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
